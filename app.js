@@ -11,7 +11,7 @@ const jsbody = document.querySelector(".js-body");
 htmlbody.classList.add('hidden');
 cssbody.classList.add('hidden');
 jsbody.classList.add('hidden');
-// home.classList.add('hidden');
+
 
 
 html.addEventListener('click',()=>{
@@ -41,11 +41,33 @@ js.addEventListener('click',()=>{
 
 //html body //
 
-const btn = document.querySelector(".btn");
-btn.addEventListener('click', ()=>{
-      home.classList.remove('hidden');
+const btn1 = document.querySelector(".btn1");
+btn1.addEventListener('click', ()=>{
+   home.classList.remove('hidden');
    html.classList.remove('hidden');
     css.classList.remove('hidden');
      js.classList.remove('hidden');
   htmlbody.classList.add('hidden');
-})
+});
+
+//  css body //
+
+const btn2 = document.querySelector(".btn2");
+btn2.addEventListener('click', ()=>{
+   home.classList.remove('hidden');
+   html.classList.remove('hidden');
+    css.classList.remove('hidden');
+     js.classList.remove('hidden');
+   cssbody.classList.add('hidden');
+});
+
+// js body //
+
+const btn3 = document.querySelector(".btn3");
+btn3.addEventListener('click', ()=>{
+      home.classList.remove('hidden');
+   html.classList.remove('hidden');
+    css.classList.remove('hidden');
+     js.classList.remove('hidden');
+  jsbody.classList.add('hidden');
+});
