@@ -14,16 +14,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: brown;
+    background-color: rgba(0, 0, 0, 0.425);
 }
 
 .home{
     display: flex;
     justify-content: center;
-    
+    justify-content: space-between;
     align-items: center;
     height: 580px;
-    width: 100%;
+    width: 70%;
 }
 
 .html{
@@ -45,4 +45,19 @@ body{
     background-size: cover;
     height: 250px;
     width: 200px;
+}
+
+.html:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    box-shadow: 0px  2px 15px rgba(255, 255, 255, 0.473);
+}
+.css:hover{
+    transform: scale(1.2);
+     cursor: pointer;
+     box-shadow: 0px  2px 15px rgba(255, 255, 255, 0.473);
+}
+.js:hover{
+    transform: scale(1.2);
+     cursor: pointer;box-shadow: 0px  2px 15px rgba(255, 255, 255, 0.473);
 }
