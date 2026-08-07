@@ -153,8 +153,7 @@ h2{
 .tags{
     margin-top: 20px;
     margin-left: 15px;
-    /* cursor: default; */
-    cursor: red default;
+    cursor: default;
     
 }
 
