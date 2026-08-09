@@ -83,11 +83,13 @@ body{
     align-items: center;
     position: sticky;
     top: 0px;
+    font-style: italic;
 }
 
 .btn1{
     height: 30px;
-    width: 5%; 
+    width: 5%;
+    
 }
 .btn1:hover{
     transform: scale(1.1);
@@ -155,6 +157,11 @@ h2{
     margin-left: 15px;
     cursor: default;
     
+    
+}
+
+#ul{
+ color: blue;
 }
 
 li{
@@ -169,10 +176,15 @@ li{
 #t2{
     color: chocolate;
 }
+#t3{
+    color: burlywood;
+}
 
+/***** example in html *****/
 input{
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.873);
 }
+/**************************/
 
 
